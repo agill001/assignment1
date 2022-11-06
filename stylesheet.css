@@ -1,0 +1,79 @@
+body{
+    display: grid;
+    grid-area: span;
+    background-color: #f9f3ec
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #5394a0;
+
+}
+
+header{
+    color: #5394a0;
+}
+
+.Newnote{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+     color: #fff; 
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #55869b;
+  
+    
+}
+
+.Darkmode{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #685369;
+ 
+    
+}
+
+.Save{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color:#55869b ;
+ 
+    
+}
+
+.Cancel{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #E9806E;
+ 
+    
+}
+
+textarea{
+    background-color: whitesmoke;
+    border: 1;
+    border-color: #56cbf9;
+}
