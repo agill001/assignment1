@@ -17,6 +17,7 @@ header{
 }
 
 .Newnote{
+    width: 112px;
     border: 0;
     line-height: 2.5;
     padding: 0 20px;
@@ -31,6 +32,7 @@ header{
 }
 
 .Darkmode{
+    width: 120px;
     border: 0;
     line-height: 2.5;
     padding: 0 20px;
@@ -45,6 +47,7 @@ header{
 }
 
 .Save{
+    width: 80px;
     border: 0;
     line-height: 2.5;
     padding: 0 20px;
@@ -59,9 +62,10 @@ header{
 }
 
 .Cancel{
+    width: 80px;
     border: 0;
     line-height: 2.5;
-    padding: 0 20px;
+    padding: 0px;
     font-size: 1rem;
     text-align: center;
     color: #fff;
@@ -76,4 +80,41 @@ textarea{
     background-color: whitesmoke;
     border: 1;
     border-color: #56cbf9;
+}
+
+.mynotes {
+    background-color: whitesmoke;
+    color: #55869b;
+}
+
+footer{
+    display: flex;
+    justify-content: center; 
+    color: #a6cad4;
+    align-items: center;
+    
+}
+
+header a {
+    color: #5394a0;
+    text-decoration: none;
+}
+
+
+
+
+footer h2 {
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+
+.notes a {
+    color: #5394a0;
+    text-decoration: none;
+    
+}
+
+.notes li{
+    list-style-type: square;
 }
