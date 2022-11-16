@@ -4,13 +4,13 @@ body{
 
 .title{
     text-align: center;
-    color: #5394a0;
+    color: #43757A;
     font-family: 'Roboto Mono', monospace;
 }
 
 header{
     
-    color: #5394a0;
+    color: #43757A;
 }
 
 .changer{
@@ -90,7 +90,7 @@ textarea{
 
 .sidebar{
     background-color: whitesmoke;
-    color: #55869b;
+    color:#43757A ;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
 }
@@ -98,11 +98,11 @@ textarea{
 footer{
     font-family: 'Roboto Mono', monospace;
     align-items: center;
-    color: #a6cad4; 
+    color: #43757A; 
 }
 
 header a {   
-    color: #5394a0;
+    color:#43757A ;
     text-decoration: none;
 }
 
@@ -112,7 +112,7 @@ footer h2 {
 }
 
 .notes a {
-    color: #5394a0;
+    color: #43757A;
     text-decoration: none;
     
 }
@@ -160,7 +160,7 @@ footer h2 {
         left: 0;
         top: 0;
         background-color: whitesmoke;
-        color: #55869b;
+        color: #43757A;
     } 
 
     .Newnote{
@@ -203,7 +203,7 @@ footer h2 {
     }
 
     .notes li {
-        color: #5394a0;
+        color: #43757A;
         text-decoration: none;
         text-align: left;
     }
