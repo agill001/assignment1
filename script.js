@@ -1,5 +1,5 @@
-let darkToggle = document.querySelector('#darkToggle');
+let Darkmode = document.querySelector('#Darkmode');
 
-darkToggle.addEventListener('change', ()=> {
+Darkmode.addEventListener('change', ()=> {
   document.body.classList.toggle('dark');
 })

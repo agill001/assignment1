@@ -46,6 +46,15 @@ header{
     background-color: #685369;  
 }
 
+.Darkmode:checked {
+    background: #333;
+  }
+  
+.dark {
+    color: white;
+    background: #444;
+  }
+
 .Save{
     width: 80px;
     border: 0;
