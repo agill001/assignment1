@@ -1,8 +1,8 @@
 const Darkmode = document.querySelector(".Darkmode");
 
 
-function backgroundchanger(){
-     document.body.style.backgroundColor = "black";
-    // document.body.classList.add("pink-bg")
+function darkmode(){
+    //  document.body.style.backgroundColor = "black";
+    document.body.classList.add("black-bg")
 }
-clickMeButton.addEventListener("click",backgroundchanger)
+Darkmode.addEventListener("click",darkmode)
