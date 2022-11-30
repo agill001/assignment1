@@ -47,3 +47,11 @@ function changetextandchangecolorsofelements(buttontext){
 
 }
 buttonContainer.addEventListener("click",changetextandchangecolorsofelements);
+
+function newnotefunc(){
+    save.style.display= 'block';
+    cancelbutton.style.display= 'block';
+    notepad.style.display='block';
+    notepad.value = '';
+}
+newnotebutton.addEventListener("click",newnotefunc);
