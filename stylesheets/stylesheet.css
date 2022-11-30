@@ -35,7 +35,7 @@ header{
 .Darkmode{
    position: absolute;
    right: 20px;
-    width: 120px;
+    width: 130px;
     border: 0;
     line-height: 2.5;
     padding: 0 20px;
@@ -46,14 +46,7 @@ header{
     background-color: #685369;  
 }
 
-.Darkmode:checked {
-    background: #333;
-  }
-  
-.dark {
-    color: white;
-    background: #444;
-  }
+
 
 .Save{
     width: 80px;
@@ -194,7 +187,7 @@ footer h2 {
     .Darkmode{
         position: absolute;
         right: 30px; 
-         width: 120px;
+         width: 130px;
          border: 0;
          line-height: 2.5;
          padding: 0 20px;
