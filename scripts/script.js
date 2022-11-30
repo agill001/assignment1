@@ -1,6 +1,7 @@
 const Darkmode = document.querySelector(".Darkmode");
-
-
+const newnotebutton = document.querySelector(".Newnote")
+const cancelbutton = document.querySelector(".Cancel")
+const save = document.querySelector(".Save");
 function darkmode(){
     //  document.body.style.backgroundColor = "black";
     document.body.classList.add("black-bg")
