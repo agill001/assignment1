@@ -55,3 +55,10 @@ function newnotefunc(){
     notepad.value = '';
 }
 newnotebutton.addEventListener("click",newnotefunc);
+
+function cancelfunc(){
+    save.style.display= 'none';
+    cancelbutton.style.display= 'none';
+    notepad.style.display='none';
+}
+cancelbutton.addEventListener("click",cancelfunc);
