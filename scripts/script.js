@@ -62,3 +62,21 @@ function cancelfunc(){
     notepad.style.display='none';
 }
 cancelbutton.addEventListener("click",cancelfunc);
+
+function saver(){  
+
+    newnotename=prompt("Please Give Your Note a Name ⤵")
+    alert("Your note has been saved!")
+    let noteItems = [newnotename];
+    const noteItemsElement = document.querySelector(".notes");
+    function populateList(arr)
+    {
+        for (let item of arr){
+            let listItem = document.createElement("li");
+            listItem.textContent = item;
+            noteItemsElement.appendChild(listItem);}   
+    }
+    populateList(noteItems);
+
+}
+save.addEventListener("click", saver);
