@@ -2,10 +2,13 @@ const Darkmode = document.querySelector(".Darkmode");
 const newnotebutton = document.querySelector(".Newnote")
 const cancelbutton = document.querySelector(".Cancel")
 const save = document.querySelector(".Save");
+const buttonContainer = document.querySelector(".firstbuttons");
+const notepad= document.querySelector("#notepad");
+const sidenav = document.querySelector(".sidebar");
+
 function darkmode(){
     //  document.body.style.backgroundColor = "black";
-    document.body.classList.add("black-bg")
-    
+    document.body.classList.add("black-bg") 
 }
 Darkmode.addEventListener("click",darkmode)
 
