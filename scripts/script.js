@@ -1,3 +1,4 @@
+/* BUTTONS BEING SELECTED */
 const Darkmode = document.querySelector(".Darkmode");
 const newnotebutton = document.querySelector(".Newnote")
 const cancelbutton = document.querySelector(".Cancel")
@@ -8,8 +9,12 @@ const sidenav = document.querySelector(".sidebar");
 const firstnote = document.querySelector(".noteone")
 const secondnote = document.querySelector(".notetwo")
 
+
+/* ARRAY */
 const notesArray = [{title: "Note one", body:"this is my first note"}, {title: "Note two",body:"this is my second note"}]
 
+
+/* ALL FUNCTIONS */
 function notedisplay1(){
     notepad.value= "this is my first note";     
 }
@@ -23,7 +28,6 @@ function darkmodeforbackg(){
     document.body.classList.toggle("black-bg")   
 }
 
-
 function changetext(){
     if(Darkmode.textContent==="Dark Mode")
     {
@@ -34,7 +38,6 @@ function changetext(){
         Darkmode.textContent="Dark Mode";
     }
 }
-
 
 function changetextandchangecolorsofelements(buttontext){
     if( buttontext.target.textContent==="Light Mode"){
@@ -56,9 +59,7 @@ function changetextandchangecolorsofelements(buttontext){
         notepad.style.borderColor="#9BBDF9"
         buttontext.target.style.backgroundColor="#685369"
         }
-
 }
-
 
 function newnotefunc(){
     save.style.display= 'block';
@@ -67,16 +68,13 @@ function newnotefunc(){
     notepad.value = '';
 }
 
-
 function cancelfunc(){
     save.style.display= 'none';
     cancelbutton.style.display= 'none';
     notepad.style.display='none';
 }
 
-
 function saver(){  
-
     newnotename=prompt("Please Give Your Note a Name ⤵")
     alert("Your note has been saved!")
     let noteItems = [newnotename];
@@ -89,10 +87,10 @@ function saver(){
             noteItemsElement.appendChild(listItem);}   
     }
     populateList(noteItems);
-
 }
 
 
+/* FUNCTIONS BEING CALLED UPON ACTION */
 firstnote.addEventListener("click",notedisplay1);
 secondnote.addEventListener("click",notedisplay2);
 Darkmode.addEventListener("click",darkmodeforbackg);
