@@ -6,6 +6,20 @@ const buttonContainer = document.querySelector(".firstbuttons");
 const notepad= document.querySelector("#notepad");
 const sidenav = document.querySelector(".sidebar");
 
+const notesArray = [{title: "Note one", body:"this is my first note"}, {title: "Note two",body:"this is my second note"}]
+
+
+function notedisplay1(){
+    notepad.value= "this is my first note";      
+}
+firstnote.addEventListener("click",notedisplay1)
+
+function notedisplay2(){
+    notepad.value= "this is my second note";      
+}
+secondnote.addEventListener("click",notedisplay2)
+
+
 function darkmodeforbackg(){
     //  document.body.style.backgroundColor = "black";
     document.body.classList.toggle("black-bg") 
