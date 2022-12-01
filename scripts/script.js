@@ -33,6 +33,7 @@ function changetextandchangecolorsofelements(buttontext){
         cancelbutton.style.backgroundColor="black"
         sidenav.style.backgroundColor="#252525"
         notepad.style.backgroundColor="#696969"
+        notepad.style.borderColor="black"
         buttontext.target.style.backgroundColor="black"
        }
 
@@ -42,6 +43,7 @@ function changetextandchangecolorsofelements(buttontext){
         cancelbutton.style.backgroundColor="#E9806E"
         sidenav.style.backgroundColor="whitesmoke"
         notepad.style.backgroundColor="whitesmoke"
+        notepad.style.borderColor="#9BBDF9"
         buttontext.target.style.backgroundColor="#685369"
         }
 
