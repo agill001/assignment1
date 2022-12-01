@@ -5,17 +5,18 @@ const save = document.querySelector(".Save");
 const buttonContainer = document.querySelector(".firstbuttons");
 const notepad= document.querySelector("#notepad");
 const sidenav = document.querySelector(".sidebar");
+const firstnote = document.querySelector(".noteone")
+const secondnote = document.querySelector(".notetwo")
 
 const notesArray = [{title: "Note one", body:"this is my first note"}, {title: "Note two",body:"this is my second note"}]
 
-
 function notedisplay1(){
-    notepad.value= "this is my first note";      
+    notepad.value= "this is my first note";     
 }
 firstnote.addEventListener("click",notedisplay1)
 
 function notedisplay2(){
-    notepad.value= "this is my second note";      
+    notepad.value= "this is my second note";     
 }
 secondnote.addEventListener("click",notedisplay2)
 
