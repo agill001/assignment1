@@ -13,21 +13,16 @@ const notesArray = [{title: "Note one", body:"this is my first note"}, {title: "
 function notedisplay1(){
     notepad.value= "this is my first note";     
 }
-firstnote.addEventListener("click",notedisplay1)
 
 function notedisplay2(){
     notepad.value= "this is my second note";     
 }
-secondnote.addEventListener("click",notedisplay2)
-
 
 function darkmodeforbackg(){
     //  document.body.style.backgroundColor = "black";
-    document.body.classList.toggle("black-bg") 
-
-    
+    document.body.classList.toggle("black-bg")   
 }
-Darkmode.addEventListener("click",darkmodeforbackg)
+
 
 function changetext(){
     if(Darkmode.textContent==="Dark Mode")
@@ -39,7 +34,7 @@ function changetext(){
         Darkmode.textContent="Dark Mode";
     }
 }
-Darkmode.addEventListener("click",changetext);
+
 
 function changetextandchangecolorsofelements(buttontext){
     if( buttontext.target.textContent==="Light Mode"){
@@ -63,7 +58,7 @@ function changetextandchangecolorsofelements(buttontext){
         }
 
 }
-buttonContainer.addEventListener("click",changetextandchangecolorsofelements);
+
 
 function newnotefunc(){
     save.style.display= 'block';
@@ -71,14 +66,14 @@ function newnotefunc(){
     notepad.style.display='block';
     notepad.value = '';
 }
-newnotebutton.addEventListener("click",newnotefunc);
+
 
 function cancelfunc(){
     save.style.display= 'none';
     cancelbutton.style.display= 'none';
     notepad.style.display='none';
 }
-cancelbutton.addEventListener("click",cancelfunc);
+
 
 function saver(){  
 
@@ -96,5 +91,13 @@ function saver(){
     populateList(noteItems);
 
 }
-save.addEventListener("click", saver);
 
+
+firstnote.addEventListener("click",notedisplay1);
+secondnote.addEventListener("click",notedisplay2);
+Darkmode.addEventListener("click",darkmodeforbackg);
+Darkmode.addEventListener("click",changetext);
+buttonContainer.addEventListener("click",changetextandchangecolorsofelements);
+newnotebutton.addEventListener("click",newnotefunc);
+cancelbutton.addEventListener("click",cancelfunc);
+save.addEventListener("click", saver);
